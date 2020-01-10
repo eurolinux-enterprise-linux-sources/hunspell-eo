@@ -1,7 +1,7 @@
 Name: hunspell-eo
 Summary: Esperanto hunspell dictionaries
 Version: 1.0
-Release: 0.6.dev%{?dist}
+Release: 0.7.dev%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/files/3377/1/1.0-dev.oxt
 URL: http://extensions.services.openoffice.org/project/literumilo
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-0.7.dev
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-0.6.dev
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
